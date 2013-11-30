@@ -78,3 +78,16 @@ test:
         # low amounts for fast failures.
         max_retries: 1
         retry_interval: 0
+
+production:
+  sessions:
+  default:
+    database: app13684798
+    hosts:
+      - alex.mongohq.com:10016
+      username: heroku
+      password: chwink123#
+      options:
+        consistency: :strong
+        safe: true
+
