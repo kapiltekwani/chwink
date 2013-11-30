@@ -81,10 +81,10 @@ test:
 
 production:
   sessions:
-  default:
-    database: app13684798
-    hosts:
-      - alex.mongohq.com:10016
+    default:
+      database: app13684798
+      hosts:
+        - alex.mongohq.com:10016
       username: heroku
       password: chwink123#
       options:
