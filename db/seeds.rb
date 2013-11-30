@@ -56,7 +56,7 @@ end_year: 2000, description: "Mach-1, Mach-2, Mach-3 -- its too much speed. I lo
     },
     { name: "Dial tone phone", category_id: Category.where(name: "Home Appliances").first.id, user_id: User.first.id,
 end_year: 1995, description: "I would love to tell children that I put my finger in the 0 and turned it around completely and SPOKE to an operator!!", votes: { "1995" => 1},
-    },
+    }
 ])
 
 IMAGES = {
